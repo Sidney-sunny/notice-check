@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-04",
+  "method": "当前会话AI提取8组一次；脚本重验结构和预设关键约束，非独立模型运行或人工评审",
+  "cases": [
+    {
+      "case": "C01_普通通知",
+      "ok": true,
+      "errors": [],
+      "sha256": "f2f342feab51e65198aee2e5971e04262751f0b43e722c6317d05952129dfe05"
+    },
+    {
+      "case": "C02_三个阶段",
+      "ok": true,
+      "errors": [],
+      "sha256": "1e31602c0cd02415616523e2d98ad5ced64bf46a8c4f38027f634be692eb8233"
+    },
+    {
+      "case": "C03_重点案例一",
+      "ok": true,
+      "errors": [],
+      "sha256": "179e8099fdfa08244e51fd06db49041d73822977d746abfb1a4aa2fba08e98ef"
+    },
+    {
+      "case": "C04_重点案例二",
+      "ok": true,
+      "errors": [],
+      "sha256": "c902aff5532d847efe7391cd6a78bf771010dce9bf7dff6dd65948ea20a1ec6a"
+    },
+    {
+      "case": "C05_缺项",
+      "ok": true,
+      "errors": [],
+      "sha256": "e96bb0d25e57c8fd9b1199bf1270505f3395de951fcfd3f8d1d9165c439af664"
+    },
+    {
+      "case": "C06_读取受限模拟",
+      "ok": true,
+      "errors": [],
+      "sha256": "afd4889538855390dc511acb2ff40419bccd4970b48333fda5e9b81c1ebc0d4c"
+    },
+    {
+      "case": "C07_冲突与注入",
+      "ok": true,
+      "errors": [],
+      "sha256": "917b6a341d373c1e6e7cc54b1af3da6cf36bba531a5df00050aea8683321fd3d"
+    },
+    {
+      "case": "C08_真实截图PDF",
+      "ok": true,
+      "errors": [],
+      "sha256": "ac935dd448471dcd60a51abbc08124a5797e81af38398a09e23f2400a0484916"
+    }
+  ],
+  "negative_tests": [
+    {
+      "name": "擅补截止时刻",
+      "rejected": true,
+      "errors": [
+        "日期精度无引用支持 报名截止: 23:59"
+      ]
+    },
+    {
+      "name": "虚构引文",
+      "rejected": true,
+      "errors": [
+        "引文不在已读文字中 参赛对象"
+      ]
+    },
+    {
+      "name": "非法状态",
+      "rejected": true,
+      "errors": [
+        "非法状态 参赛对象"
+      ]
+    },
+    {
+      "name": "遗漏独立入口字段",
+      "rejected": true,
+      "errors": [
+        "缺核对项目 作品入口"
+      ]
+    }
+  ],
+  "retest": "修正真实截图输出的材料规格引用绑定错误后，重跑全部结构及关键约束；故障注入只测试校验器",
+  "all_ok": true
+}

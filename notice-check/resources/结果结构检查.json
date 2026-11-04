@@ -1,0 +1,49 @@
+{
+  "scope": "保存结果的结构与引用检查，不是新增AI提取或人工语义评审",
+  "results": [
+    {
+      "file": "resources/tests/C01_普通通知/actual.json",
+      "ok": true
+    },
+    {
+      "file": "resources/tests/C02_三个阶段/actual.json",
+      "ok": true
+    },
+    {
+      "file": "resources/tests/C03_重点案例一/actual.json",
+      "ok": true
+    },
+    {
+      "file": "resources/tests/C04_重点案例二/actual.json",
+      "ok": true
+    },
+    {
+      "file": "resources/tests/C05_缺项/actual.json",
+      "ok": true
+    },
+    {
+      "file": "resources/tests/C06_读取受限模拟/actual.json",
+      "ok": true
+    },
+    {
+      "file": "resources/tests/C07_冲突与注入/actual.json",
+      "ok": true
+    },
+    {
+      "file": "resources/tests/C08_真实截图PDF/actual.json",
+      "ok": true
+    },
+    {
+      "file": "resources/real-tests/R01_真实报名与审核分阶段/实际输出.json",
+      "ok": true
+    },
+    {
+      "file": "resources/real-tests/R02_真实延期与原通知不可读/实际输出.json",
+      "ok": true
+    },
+    {
+      "file": "resources/real-tests/R03_真实跨校范围与本校502/实际输出.json",
+      "ok": true
+    }
+  ]
+}

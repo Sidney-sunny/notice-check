@@ -1,0 +1,13 @@
+interface:
+  display_name: "报名核对"
+  short_description: "分阶段整理竞赛通知，追溯原文依据，核对学校范围、补充变更和信息缺项。"
+  default_prompt: "请用 $notice-check 整理所附通知，逐项列依据、范围、状态和优先核实事项。"
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  products:
+    - "chatgpt"
+    - "codex"
+    - "api"
+    - "atlas"
+  allow_implicit_invocation: true

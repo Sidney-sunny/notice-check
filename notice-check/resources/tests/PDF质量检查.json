@@ -1,0 +1,51 @@
+[
+  {
+    "file": "01_设计说明书.pdf",
+    "pages": 2,
+    "embedded_fonts": true,
+    "text_readable": true,
+    "visual_review": "已查看全部最终页面联络图，正文与表格未见截断，中文字体可辨"
+  },
+  {
+    "file": "02_测试样例与结果.pdf",
+    "pages": 2,
+    "embedded_fonts": true,
+    "text_readable": true,
+    "visual_review": "已查看全部最终页面联络图，正文与表格未见截断，中文字体可辨"
+  },
+  {
+    "file": "03_运行与复用说明.pdf",
+    "pages": 2,
+    "embedded_fonts": true,
+    "text_readable": true,
+    "visual_review": "已查看全部最终页面联络图，正文与表格未见截断，中文字体可辨"
+  },
+  {
+    "file": "04_作品申报书及项目摘要.pdf",
+    "pages": 2,
+    "embedded_fonts": true,
+    "text_readable": true,
+    "visual_review": "已查看全部最终页面联络图，正文与表格未见截断，中文字体可辨"
+  },
+  {
+    "file": "05_团队成员贡献说明.pdf",
+    "pages": 1,
+    "embedded_fonts": true,
+    "text_readable": true,
+    "visual_review": "已查看全部最终页面联络图，正文与表格未见截断，中文字体可辨"
+  },
+  {
+    "file": "06_AI工具及第三方资源使用说明.pdf",
+    "pages": 1,
+    "embedded_fonts": true,
+    "text_readable": true,
+    "visual_review": "已查看全部最终页面联络图，正文与表格未见截断，中文字体可辨"
+  },
+  {
+    "file": "07_演示讲稿与录制步骤.pdf",
+    "pages": 2,
+    "embedded_fonts": true,
+    "text_readable": true,
+    "visual_review": "已查看全部最终页面联络图，正文与表格未见截断，中文字体可辨"
+  }
+]

@@ -1,0 +1,1 @@
+请用 $notice-check 打开 https://design.sztu.edu.cn/info/1027/2264.htm ，并尝试读取其所指原赛事通知 https://nbw.sztu.edu.cn/info/1022/49937.htm 。这是历史真实材料。区分实际读到的延期信息和原通知未核实信息，不编造作品的具体截止；重新生成结果，不读取已有输出。
